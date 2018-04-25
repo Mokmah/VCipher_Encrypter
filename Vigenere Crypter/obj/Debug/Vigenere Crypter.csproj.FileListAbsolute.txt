@@ -2,9 +2,9 @@ D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\bin\Debug\Vigenere
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\bin\Debug\Vigenere Crypter.exe
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\bin\Debug\Vigenere Crypter.pdb
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csprojResolveAssemblyReference.cache
-D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.MainForm.resources
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.Properties.Resources.resources
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csproj.GenerateResource.cache
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csproj.CoreCompileInputs.cache
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.exe
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.pdb
+D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.CipherForm.resources

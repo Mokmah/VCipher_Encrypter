@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Vigenere_Crypter
 {
-    public partial class MainForm : Form
+    public partial class CipherForm : Form
     {
-        public MainForm()
+        public CipherForm()
         {
             InitializeComponent();
         }

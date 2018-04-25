@@ -1,6 +1,6 @@
 ﻿namespace Vigenere_Crypter
 {
-    partial class MainForm
+    partial class CipherForm
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -51,6 +51,7 @@
             this.txtDecode.Location = new System.Drawing.Point(215, 64);
             this.txtDecode.Multiline = true;
             this.txtDecode.Name = "txtDecode";
+            this.txtDecode.ReadOnly = true;
             this.txtDecode.Size = new System.Drawing.Size(177, 89);
             this.txtDecode.TabIndex = 1;
             // 
@@ -68,9 +69,9 @@
             this.lblDecode.AutoSize = true;
             this.lblDecode.Location = new System.Drawing.Point(212, 45);
             this.lblDecode.Name = "lblDecode";
-            this.lblDecode.Size = new System.Drawing.Size(108, 13);
+            this.lblDecode.Size = new System.Drawing.Size(104, 13);
             this.lblDecode.TabIndex = 3;
-            this.lblDecode.Text = "Message de résultat :";
+            this.lblDecode.Text = "Message Résultant :";
             // 
             // btnEncode
             // 
@@ -108,7 +109,7 @@
             this.lblKey.TabIndex = 7;
             this.lblKey.Text = "Clé :";
             // 
-            // MainForm
+            // CipherForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -121,7 +122,7 @@
             this.Controls.Add(this.lblEncode);
             this.Controls.Add(this.txtDecode);
             this.Controls.Add(this.txtEncode);
-            this.Name = "MainForm";
+            this.Name = "CipherForm";
             this.Text = "Encrypteur Vigenère par William Garneau";
             this.ResumeLayout(false);
             this.PerformLayout();
