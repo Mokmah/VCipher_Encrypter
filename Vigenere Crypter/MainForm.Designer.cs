@@ -80,6 +80,7 @@
             this.btnEncode.TabIndex = 4;
             this.btnEncode.Text = "Encrypter";
             this.btnEncode.UseVisualStyleBackColor = true;
+            this.btnEncode.Click += new System.EventHandler(this.btnEncode_Click);
             // 
             // btnDecode
             // 
@@ -89,6 +90,7 @@
             this.btnDecode.TabIndex = 5;
             this.btnDecode.Text = "Décrypter";
             this.btnDecode.UseVisualStyleBackColor = true;
+            this.btnDecode.Click += new System.EventHandler(this.btnDecode_Click);
             // 
             // txtKey
             // 
@@ -102,9 +104,9 @@
             this.lblKey.AutoSize = true;
             this.lblKey.Location = new System.Drawing.Point(116, 18);
             this.lblKey.Name = "lblKey";
-            this.lblKey.Size = new System.Drawing.Size(31, 13);
+            this.lblKey.Size = new System.Drawing.Size(28, 13);
             this.lblKey.TabIndex = 7;
-            this.lblKey.Text = "Key :";
+            this.lblKey.Text = "Clé :";
             // 
             // MainForm
             // 
