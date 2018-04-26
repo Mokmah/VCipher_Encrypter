@@ -6,11 +6,10 @@ using System.Windows.Forms;
 /// Vigenere Crypter
 /// By William Garneau
 /// 
-/// It encryption/decryption isn't working, 
-/// try removing spaces between words
-/// It might cause problems
+/// Data encryption and decryption using 
+/// Vigenère Cipher Method
+/// *** Key is needed to encrypt/decrypt a msg *** 
 /// </summary>
-/// 
 namespace Vigenere_Crypter
 {
     public partial class CipherForm : Form
@@ -31,9 +30,13 @@ namespace Vigenere_Crypter
                     txtKey.Focus();
                 }
                 else
-                {
-                    StringBuilder sb = new StringBuilder(txtEncode.Text);
+                {   // Remove spaces in msg to encode
+                    string msg = txtEncode.Text.Replace(" ", string.Empty);
+                    // Var for encoding the msg
+                    StringBuilder sb = new StringBuilder(msg);
+                    // Encoding the msg with key
                     VCipher.VigenereEncrypt(ref sb, txtKey.Text);
+                    // Display the new coded msg
                     txtDecode.Text = sb.ToString();
                 }
             }
@@ -48,15 +51,20 @@ namespace Vigenere_Crypter
         {
             try
             {
+                // We need a key to decode
                 if (String.IsNullOrEmpty(txtKey.Text))
                 {
                     MessageBox.Show("Vous devez entrer entrer une clé pour être en mesure d'encrypter le message !", "Erreur d'entrée", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     txtKey.Focus();
                 }
                 else
-                {
-                    StringBuilder sb = new StringBuilder(txtEncode.Text);
+                {   // Remove spaces in msg to decode
+                    string msg = txtEncode.Text.Replace(" ", string.Empty);
+                    // Var for decoding the msg
+                    StringBuilder sb = new StringBuilder(msg);
+                    // Get the real message with key
                     VCipher.VigenereDecrypt(ref sb, txtKey.Text);
+                    // Display the msg
                     txtDecode.Text = sb.ToString();
                 }
             }
