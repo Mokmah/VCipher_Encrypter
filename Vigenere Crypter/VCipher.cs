@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 /// <summary>
 /// Vigenere encryption and decryption functions
 /// By William Garneau
 /// </summary>
+/// 
 namespace Vigenere_Crypter
 {
     class VCipher

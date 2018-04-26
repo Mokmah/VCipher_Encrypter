@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
 /// <summary>
 /// Vigenere Crypter
 /// By William Garneau
@@ -15,6 +10,7 @@ using System.Windows.Forms;
 /// try removing spaces between words
 /// It might cause problems
 /// </summary>
+/// 
 namespace Vigenere_Crypter
 {
     public partial class CipherForm : Form
