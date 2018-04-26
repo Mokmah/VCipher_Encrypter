@@ -65,8 +65,8 @@ namespace Vigenere_Crypter
         public string Replace(string msg)
         {
             // Replace every unusual characters by correct ones in Ascii table
-            string[] original = { "î", "Î", "ö", "Ö", "à", "À", "ê", "Ê", "ç", "Ç" };
-            string[] converted = { "i", "I", "o", "O", "a", "A", "e", "E", "c", "C" };
+            string[] original = { "î", "Î", "ö", "Ö", "à", "À", "ê", "Ê", "ç", "Ç"};
+            string[] converted = { "i", "I", "o", "O", "a", "A", "e", "E", "c", "C"};
             for (int i = 0; i < original.Length; i++)
             { 
                 msg = msg.Replace(original[i], converted[i]);

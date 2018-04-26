@@ -7,7 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Vigenere Crypter
+/// By William Garneau
+/// 
+/// It encryption/decryption isn't working, 
+/// try removing spaces between words
+/// It might cause problems
+/// </summary>
 namespace Vigenere_Crypter
 {
     public partial class CipherForm : Form
