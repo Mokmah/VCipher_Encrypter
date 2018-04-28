@@ -14,16 +14,20 @@ namespace Vigenere_Crypter
 {
     public partial class CipherForm : Form
     {
+        VCipher cipher;
         public CipherForm()
         {
             InitializeComponent();
+            cipher = new VCipher();
         }
 
         #region Events
         private void btnEncode_Click(object sender, EventArgs e)
         {
+            // Var for containing the new encoded message
+            string msgEncoded;
             try
-            {
+            { // We can't have an empty string when encoding
                 if (String.IsNullOrEmpty(txtKey.Text))
                 {
                     MessageBox.Show("Vous devez entrer entrer une clé pour être en mesure d'encrypter le message !", "Erreur d'entrée", MessageBoxButtons.OK,MessageBoxIcon.Hand);
@@ -31,13 +35,13 @@ namespace Vigenere_Crypter
                 }
                 else
                 {   // Remove spaces in msg to encode
-                    string msg = txtEncode.Text.Replace(" ", string.Empty);
-                    // Var for encoding the msg
-                    StringBuilder sb = new StringBuilder(msg);
+                    string msg = txtEncode.Text.ToUpper().Replace(" ", string.Empty);
+                    // Removing spaces in key to encode
+                    string key = txtKey.Text.ToUpper();
                     // Encoding the msg with key
-                    VCipher.VigenereEncrypt(ref sb, txtKey.Text);
+                    msgEncoded = cipher.VigenereEncrypt(msg, key);
                     // Display the new coded msg
-                    txtDecode.Text = sb.ToString();
+                    txtDecode.Text = msgEncoded.ToString();
                 }
             }
             catch

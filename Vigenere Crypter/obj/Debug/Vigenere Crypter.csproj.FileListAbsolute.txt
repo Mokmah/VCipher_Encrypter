@@ -8,3 +8,13 @@ D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.exe
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.pdb
 D:\Programmation\Git clones\Vigenere Crypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.CipherForm.resources
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\bin\Debug\Vigenere Crypter.exe.config
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\bin\Debug\Vigenere Crypter.exe
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\bin\Debug\Vigenere Crypter.pdb
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csprojResolveAssemblyReference.cache
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.CipherForm.resources
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere_Crypter.Properties.Resources.resources
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csproj.GenerateResource.Cache
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.csproj.CoreCompileInputs.cache
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.exe
+C:\Git Clones\VCipher_Encrypter\Vigenere Crypter\obj\Debug\Vigenere Crypter.pdb
