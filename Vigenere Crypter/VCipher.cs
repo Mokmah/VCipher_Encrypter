@@ -34,11 +34,11 @@ namespace Vigenere_Crypter
                 if (wrdIndex >= key.Length)
                     wrdIndex = 0;
                 // Find the associated letter with the keyword
-                keyIndex = key[keyIndex] - (char)65;
+                msgIndex = (key[keyIndex] - 65);
                 keyIndex++;
                 // Find the associated letter with the msg to encode
-                msgIndex = toEncode[msgIndex] - (char)65;
-                encoded += cipher[keyIndex, msgIndex];
+                wrdIndex = (toEncode[i] - 65);
+                encoded += cipher[keyIndex, wrdIndex];
             } // Return the encoded message to the event
             return encoded;
         }
@@ -67,6 +67,7 @@ namespace Vigenere_Crypter
         }
         #endregion VigenereFunctions
 
+        #region Char[,] converter
         // Method to fill the encrypter with characters
         char[,] FillEncrypter(char[,] encrypter)
         {
@@ -85,5 +86,6 @@ namespace Vigenere_Crypter
             } // Return the encrypter, full of characters
             return encrypter;
         }
+        #endregion Char[,] converter
     }
 }
