@@ -36,12 +36,12 @@ namespace Vigenere_Crypter
                 else
                 {   // Remove spaces in msg to encode
                     string msg = txtEncode.Text.ToUpper().Replace(" ", string.Empty);
-                    // Removing spaces in key to encode
-                    string key = txtKey.Text.ToUpper();
+                    // Var for encoding the msg
+                    StringBuilder sb = new StringBuilder(msg);
                     // Encoding the msg with key
-                    msgEncoded = cipher.VigenereEncrypt(msg, key);
+                    VCipher.VigenereEncrypt(ref sb, txtKey.Text);
                     // Display the new coded msg
-                    txtDecode.Text = msgEncoded.ToString();
+                    txtDecode.Text = sb.ToString();
                 }
             }
             catch
